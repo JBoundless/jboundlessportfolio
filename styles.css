@@ -23,21 +23,3 @@ ul {
   padding: 0;
   text-align: left;
 }
-Journalism {
-  text-align: left;
-  justify-content: left;
-  line-height: 2;
-  font-family: Times;
-  color: white;
-  display: flex;
-  background-color: navy;
-}
-Computer Programming {
-  text-align: left;
-  justify-content: left;
-  line-height: 2;
-  font-family: Times;
-  color: green;
-  display: flex;
-  background-color: black;
-}
