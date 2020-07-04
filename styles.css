@@ -17,10 +17,14 @@ header {
 nav-link {
   target="_blank";
 }
-ul {
+nav-bar {
   list-style-type: none;
   margin: 0;
   padding: 0;
   text-align: left;
-  color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border: 15px solid purple;
 }
