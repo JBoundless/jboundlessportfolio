@@ -28,3 +28,7 @@ nav-bar {
   padding-right: 50px;
   border: 15px solid purple;
 }
+images {
+  justify-content: center;
+  text-align: center;
+}
