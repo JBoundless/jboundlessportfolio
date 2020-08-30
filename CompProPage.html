@@ -1,66 +1,115 @@
 <!DOCTYPE HTML>
+
+<body>
 <style>
-  body {
-    text-align: left;
+
+* {
+  box-sizing: border-box;
+}
+body {
+  background-image: url('https://wallpapercave.com/wp/wp5982339.jpg');
+  font-family: Times;
+  text-align: left;
   justify-content: left;
   Flex-direction: column;
   line-height: 2;
-  font-family: Hack;
-  color: black;
+  color: white;
   display: flex;
-  background-color: white;
   }
-  footer {
+}
+.column {
+  float: left;
+  width: 50%;
+  padding: 0 10px;
+}
+.row {margin: 0 -5px;}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+  width: 100%
+}
+.cardrow2 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+  width: 100%;
+}
+.column2 {
+  float: left;
+  width: 33%;
+  padding: 0 10px;
+}
+footer {
   text-align: center;
   padding-top: 25px;
   padding-bottom: 25px;
   background-color: black;
 }
 </style>
-<body>
 <h1>Computer Programming</h1>
+<h3>Coding Languages I've Learned</h3>
 <p>I have spent three years learning how to code through Codecademy and FreeCodeCamp.  Besides HTML and CSS, the languages I've learned include Java, JavaScript, Python, and Swift.  Recently, I've been taking a course called 'Visualization for Data Journalism' on Coursera.  I've also been trying my hand at Virtual Reality by learning A-Frame on Codecademy.</p>
-  <h2>Coding Languages I've Learned</h2>
-  <p>Codeacademy.com</p>
-<ul>
-  <li>Learn Java (July 2017)</li>
-  <li>Learn Python 2 (December 2017)</li>
-  <li>Learn HTML (January 2018)</li>
-  <li>Learn Responsive Design (February 2018)</li>
-  <li>Make a Website (May 2018)</li>
-  <li>Learn JavaScript (June 2018; relearned January 2020-August 2020)</li>
-  <li>Learn Swift (February 2020 - May 2020)</li>
-  <li>Learn C# (June 2020-Present)</li>
-  <li>Learn A-Frame (VR) (June 2020-July 2020)</li>
-  <li>Learn React.js: Part I</li>
+  <div class="row">
+  <div class="column2">
+    <div class="cardrow2">
+        <h4>Codecademy</h4>
+        <ul>
+        <li>Learn Java (July 2017)</li>
+        <li>Learn Python 2 (December 2017)</li>
+        <li>Learn HTML (January 2018)</li>
+        <li>Learn Responsive Design (February 2018)</li>
+        <li>Make a Website (May 2018)</li>
+        <li>Learn JavaScript (June 2018; relearned January 2020-August 2020)</li>
+        <li>Learn Swift (February 2020 - May 2020)</li>
+        <li>Learn C# (June 2020-Present)</li>
+        <li>Learn A-Frame (VR) (June 2020-July 2020)</li>
+        <li>Learn React.js (Parts I & II) (July 2020-August 2020)</li>
   </ul>
-  <p>FreeCodeCamp.com</p>
-<ul>
-  <li>HTML/CSS (June 2019-July 2019)</li>
-  <li>Learn Data Visualization with D3.js (June 2020-present)</li>
-</ul>
-  <p>Coursera</p>
-<ul>
-  <li>Visualization for Data Journalism from the University of Illinois at Urbana-Champaign (June 2020-July 2020)</li>
-  <li>The Science of Well-Being from Yale University (July 2020-August 2020)</li>
-</ul>
-  <h3>Programming and Journalism</h3>
+    </div>
+  </div>
+  <div class="column2">
+    <div class="cardrow2">
+        <h4>FreeCodeCamp</h4>
+        <ul>
+              <li>HTML/CSS (June 2019-July 2019)</li>
+        </ul>
+    </div>
+  </div>
+</div>
+<div class="column2">
+  <div class="cardrow2">
+      <h4>Coursera</h4>
+      <ul>
+        <li>Visualization for Data Journalism from the University of Illinois at Urbana-Champaign (June 2020-July 2020)</li>
+    </ul>
+  </div>
+</div>
+</div>
+<h3>My Coding Projects</h3>
+<div class="row">
+  <div class="column">
+    <div class="card">
+        <h4><a href="NBADV.html">NBA Shooting Splits Data Visualization</h4></a>
+        <p>I made charts on Datawrapper that showed the 20 best field-goal, three-point, and free-throw percentage leaders.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+        <h4><a href="jboundless.github.io/lakerleaders/">Laker Leaders</h4></a>
+        <p>I made graphs on Datawrapper that compared statistics from each Laker from the 2010-11 season to the 2019-20 season.</p>
+    </div>
+  </div>
+  </div>
+
+  <h5>Programming and Journalism</h5>
 <p>I've always wondered how journalism and programming could coexist.  In these times, it has become apparent that newsrooms are beginning to accept the fact that technology could become a part of their workflow as well.  Some helpful articles on the issue include:</p>
   <ul>
   <div class="JournoCode"><li><a href="https://ijnet.org/en/story/how-journalists-can-get-started-coding" target="_blank">https://ijnet.org/en/story/how-journalists-can-get-started-coding</a></li></div>
 <div class="JournoCode"><li><a href="https://medium.com/tow-center/what-can-journalism-learn-from-computer-science-647668398c1f" target="_blank">https://medium.com/tow-center/what-can-journalism-learn-from-computer-science-647668398c1f</a></li></div>
 </ul>
-<h4>Code Samples</h4>
-<p3><a href="file:///Users/jordanpagkalinawan/Documents/GitHub/Stat%20Site/Stats%20Site%20Project.html">Here</a> is a recent project I made detailing the statistics from the 2019-20 Lakers as well as my high school's varsity basketball team.</h3>
-<p>Here are graphs I made using Datawrapper.  They detail the 2019-20 NBA field-goal, three-point, and free-throw percentage leaders as of March 11, 2020</p>
-  <iframe title="NBA 2020 FG% Leaders" aria-label="Grouped Bars" id="datawrapper-chart-Ibl3d" src="https://datawrapper.dwcdn.net/Ibl3d/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="1685"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
-</script>
-<iframe title="NBA 2020 3PT% Leaders" aria-label="Split Bars" id="datawrapper-chart-pV4W1" src="https://datawrapper.dwcdn.net/pV4W1/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="567"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
-</script>
-<iframe title="NBA 2020 FT% Leaders" aria-label="Split Bars" id="datawrapper-chart-D9aeF" src="https://datawrapper.dwcdn.net/D9aeF/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="567"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
-</script>
-  <img src="https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Fforbestechcouncil%2Ffiles%2F2019%2F01%2Fcanva-photo-editor-8-7.jpg" alt="Syntax">
-  <p><a href="jboundless.github.io/lakerleaders/">Here</a> is a data visualization project I completed where I showed the stats of every Los Angeles Laker from 2010 to 2020.</p>
   <footer>
     <a href="index.html">Home</a>
   </footer>
