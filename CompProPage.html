@@ -17,6 +17,10 @@ body {
   display: flex;
   }
 }
+.dark-mode {
+  background-image: url('https://i.pinimg.com/originals/93/f7/1e/93f71e2df540ff34a4615610ae8c7b35.jpg');
+color: white;
+}
 .column {
   float: left;
   width: 33%;
@@ -49,6 +53,14 @@ footer {
 }
 </style>
 <h1>Computer Programming</h1>
+<h2>Check out this Dark-Mode feature</h2>
+<button onclick="modeSwitch()">Dark Mode</button>
+<script>
+function modeSwitch() {
+  var element = document.body;
+  element.classList.toggle("dark-mode");
+}
+</script>
 <h3>Coding Languages I've Learned</h3>
 <p>I have spent three years learning how to code through Codecademy and FreeCodeCamp.  Besides HTML and CSS, the languages I've learned include Java, JavaScript, Python, and Swift.  Recently, I've been taking a course called 'Visualization for Data Journalism' on Coursera.  I've also been trying my hand at Virtual Reality by learning A-Frame on Codecademy.</p>
   <div class="row">
