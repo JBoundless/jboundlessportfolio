@@ -2,7 +2,7 @@ body {
   text-align: center;
   justify-content: center;
   line-height: 2;
-  font-family: Times;
+  font-family: 'Roboto Condensed', sans-serif;
   color: white;
   display: flex;
   flex-direction: column;
