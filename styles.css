@@ -11,3 +11,6 @@ body {
 footer {
   text-align: center;
 }
+a:hover {
+    background-color: white;
+  }
