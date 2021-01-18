@@ -17,4 +17,6 @@ a:hover {
 .socials {
   justify-content: center;
   text-align: center;
+  background-color: white;
+  color: black;
 }
