@@ -6,7 +6,7 @@ body {
   color: white;
   display: flex;
   flex-direction: column;
-  background-image: url("https://i.pinimg.com/originals/93/8b/a9/938ba925943764901f2c2889ea835d42.jpg");
+  background: linear-gradient(to left, #283593, #1976d2);
 }
 footer {
   text-align: center;
