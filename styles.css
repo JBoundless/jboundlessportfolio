@@ -6,7 +6,7 @@ body {
   color: white;
   display: flex;
   flex-direction: column;
-  background: linear-gradient(to right, #ffd89b, #19547b);
+  background: linear-gradient(to right, #525252, #3d72b4);
 }
 footer {
   text-align: center;
