@@ -5,6 +5,8 @@
   <script>
         ScrollReveal({ reset: true });
     </script>
+  <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <style>
 * {
@@ -19,39 +21,9 @@ body {
   line-height: 2;
   color: white;
   display: flex;
+  margin: auto;
   }
 
-.column {
-  float: left;
-  width: 33%;
-  padding: 0 10px;
-}
-.row {margin: 0 -5px;}
-.cardrow {
-  border-radius: 25px;
-  background: rgba(255, 255, 255, 0.2);
-  backdrop-filter: blur(30px);  /* This will produce the blur */
-  border: 2px solid rgba(255, 255, 255, 0.1);
-  box-shadow: 0 0 80px rgba(0, 0, 0, 0.2);
-  overflow: hidden;
-  text-align: center;
-  width: 100%
-}
-.cardrow2 {
-   border-radius: 25px;
-  background: rgba(255, 255, 255, 0.2);
-  backdrop-filter: blur(30px);  /* This will produce the blur */
-  border: 2px solid rgba(255, 255, 255, 0.1);
-  box-shadow: 0 0 80px rgba(0, 0, 0, 0.2);
-  overflow: hidden;
-  text-align: center;
-  width: 75%
-}
-.column2 {
-  float: left;
-  width: 33%;
-  padding: 0 10px;
-}
 footer {
   text-align: center;
   padding-top: 25px;
@@ -60,12 +32,12 @@ footer {
 </style>
 
 <body>
-<h1>Computer Programming</h1>
+<h1 class="text-center">Computer Programming</h1>
 <h2>Coding Languages I've Learned</h2>
 <p>I have been coding since I was 13 years old, learning through Codecademy and FreeCodeCamp.  Besides HTML and CSS, the languages I've learned include Java, JavaScript, Python, and Swift.  I also took a course called 'Visualization for Data Journalism' on Coursera.  I've also been trying my hand at Virtual Reality by learning A-Frame on Codecademy.  Lately, I've been focusing on honing my skills in <b>Front-End Web Development</b>.</p>
+<div class="container">
   <div class="row">
-  <div class="column">
-    <div class="cardrow">
+  <div class="col border border-light">
         <h4>Codecademy</h4>
         <ul>
         <li>Learn Java (July 2017)</li>
@@ -81,149 +53,67 @@ footer {
          <li>Learn Angular JS 1.X (March 2021)</li>
   </ul>
     </div>
-  </div>
-  <div class="column">
-    <div class="cardrow">
+  <div class="col border border-light">
         <h4>FreeCodeCamp</h4>
         <ul>
               <li>HTML/CSS (June 2019-July 2019)</li>
         </ul>
-    </div>
   </div>
-<div class="column">
-  <div class="cardrow">
+  <div class="col border border-light">
       <h4>Coursera</h4>
       <ul>
         <li>Visualization for Data Journalism from the University of Illinois at Urbana-Champaign (June 2020-July 2020)</li>
     </ul>
+</div>
+</div>
   </div>
-</div>
-</div>
 <div class="coding-projects">
 <h2>My Coding Projects</h2>
 <div class="row">
-  <div class="column2">
-    <div class="cardrow2">
+  <div class="col border border-light">
         <h4><a href="https://jboundless.github.io/jordanjpagkalinawan/NBADV.html">NBA Shooting Splits Data Visualization</h4></a>
         <p>I made charts on Datawrapper that showed the 20 best field-goal, three-point, and free-throw percentage leaders.</p>
-    </div>
-  </div>
-  <div class="column2">
-    <div class="cardrow2">
         <h4><a href="https://jboundless.github.io/lakerleaders/">Laker Leaders</h4></a>
         <p>I made graphs on Datawrapper that compared statistics from each Laker from the 2010-11 season to the 2019-20 season.</p>
-    </div>
-  </div>
-  <div class="column2">
-    <div class="cardrow2">
         <h4><a href="https://medium.com/the-voice-of-truth/evaluating-four-lakers-draft-prospects-a55128f8d79e">Evaluating Four Laker Draft Prospects</h4></a>
         <p>A Medium article where I evaluate four potential draft prospects for the Lakers and visualize their stats with MatPlotLib, Pandas, and Python in Jupyter Notebook.</p>
-    </div>
-  </div>
-  <div class="column2">
-    <div class="cardrow2">
         <h4><a href="https://medium.com/the-voice-of-truth/who-is-the-nbas-true-goat-9dc5d8afe507">Who is the NBA's True GOAT</h4></a>
         <p>Another article where I visualized the traditional and advanced stats off some of the Greatest Players of All Time to Determine Who the NBA's GOAT is.</p>
-    </div>
-  </div>
-  <div class="column2">
-    <div class="cardrow2">
       <h4><a href="https://profile-card-frontend-project.vercel.app">Profile Card Project</h4></a>
       <p>Most recently, I began working on projects from Frontend Mentor.  This one was a social media profile card.</p>
-    </div>
-  </div>
-  <div class="column2">
-    <div class="cardrow2">
       <h4><a href="https://single-price-grid-component-hazel.vercel.app">Single Price Grid Component - Frontend Mentor</h4></a>
       <p>Another one of my projects on Frontend Mentor involved designing a webpage displaying prices for a tutoring service.</p>
-    </div>
-   </div>
-      <div class="column2">
-    <div class="cardrow2">
       <h4><a href="https://jboundless.github.io/antisocial/">Anti-Social</h4></a>
       <p>I made another page with resources to encourage less social media use.</p>
-    </div>
-   </div>
-   <div class="column2">
-    <div class="cardrow2">
       <h4><a href="https://jboundless.github.io/NBA-Twitter/">NBA Twitter</h4></a>
       <p>I embedded the Twitter feeds of prominent NBA reporters & media organizations.</p>
-    </div>
-   </div>
-     <div class="column2">
-    <div class="cardrow2">
       <h4><a href="https://jboundless.github.io/boundless-ballin-media-admin/">Boundless & Ballin' Media Admin</h4></a>
       <p>I created an admin dashboard for a fake media company.</p>
-    </div>
-   </div>
-     <div class="column2">
-    <div class="cardrow2">
       <h4><a href="https://jboundless.github.io/lofi-library/">Lofi Library</h4></a>
       <p>A collection of the YouTube and SoundCloud profiles of Lofi music producers.</p>
-    </div>
-   </div>
-   <div class="column2">
-    <div class="cardrow2">
       <h4><a href="https://jboundless.github.io/among-us-landing-page/">Among Us Landing Page</h4></a>
       <p>A mock landing page for the phone/PC game 'Among Us'.</p>
-    </div>
-   </div>
-     <div class="column2">
-    <div class="cardrow2">
       <h4><a href="https://jboundless.github.io/script-coffee/">Script Coffee</h4></a>
       <p>A multi-page site (with menu & form) for a nonexistant coffee shop.</p>
-    </div>
-   </div>
-  <div class="column2">
-    <div class="cardrow2">
       <h4><a href="https://broadway-bootleg-netflix-git-main-jboundless.vercel.app">Broadway Bootleg Netflix</h4></a>
       <p>A multi-page site displaying YouTube videos of live Broadway performances from various musicals.</p>
-    </div>
-   </div>
-  <div class="column2">
-    <div class="cardrow2">
       <h4><a href="https://github.com/JBoundless/sports-scrape-jupyter">Sports Scraping Projects</h4></a>
       <p>A repo containing stats for various NBA players, scraped with BeautifulSoup.</p>
-    </div>
-   </div>
-  <div class="column2">
-    <div class="cardrow2">
       <h4><a href="https://github.com/JBoundless/sports-scrape-jupyter">Swift Repo</h4></a>
       <p>My first repo with Swift.</p>
-    </div>
    </div>
-  
+<div class="col border border-light">  
   <h3>ReactJS Projects</h3>
-    <div class="column2">
-    <div class="cardrow2">
       <h4><a href="https://jboundless.github.io/reactpage/">Basic ReactJS Page</h4></a>
       <p>I designed a simple ReactJS page using CodePen.</p>
-    </div>
-   </div>
-    <div class="column2">
-        <div class="cardrow2">
           <h4><a href="https://react-mui-lakers-roster.vercel.app">React/MUI Lakers Roster</h4></a>
           <p>A page created with React and Material UI displaying the 2020-21 Lakers roster.</p>
-        </div>
-       </div>
-    <div class="column2">
-        <div class="cardrow2">
           <h4><a href="https://react-mui-coffee.vercel.app">React/MUI Coffee Maker Page</h4></a>
           <p>Another React/MUI project page displaying different types of coffee makers.</p>
-        </div>
-       </div>
-    <div class="column2">
-        <div class="cardrow2">
           <h4><a href="https://github.com/JBoundless/next-news-ui">NextNews UI</h4></a>
           <p>The User Interface of a fake news site I created.</p>
-        </div>
-       </div>
-       <div class="column2">
-      <div class="cardrow2">
         <h4><a href="https://github.com/JBoundless/github-jobs">GitHub Jobs Page</h4></a>
         <p>I made a simple website displaying job openings from the GitHub Jobs API.</p>
-      </div>
-     </div>
   </div>
  </div>
   <script>
